@@ -1,0 +1,3 @@
+include ':Homelib'
+include ':app'
+rootProject.name = "ComponentApp"

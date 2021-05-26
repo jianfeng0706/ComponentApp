@@ -1,4 +1,4 @@
-package com.jf.learn;
+package com.jf.mine;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.jf.learn", appContext.getPackageName());
+        assertEquals("com.jf.minebusiness.test", appContext.getPackageName());
     }
 }

@@ -11,7 +11,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/Homelib" />
+            <option value="$PROJECT_DIR$/HomeBusinesslib" />
+            <option value="$PROJECT_DIR$/MineBusinesslib" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>

@@ -1,10 +1,10 @@
-package com.jf.learn;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.jf.mine;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class MineMainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

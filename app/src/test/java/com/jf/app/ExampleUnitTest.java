@@ -1,4 +1,4 @@
-package com.jf.learn;
+package com.jf.app;
 
 import org.junit.Test;
 

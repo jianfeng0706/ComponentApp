@@ -3,17 +3,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".HomeMainActivity">
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:gravity="center"
-        android:text="app壳页面"/>
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/appClick"
+        android:text="Home页面" />
+
+    <Button
+        android:id="@+id/openMineActivity"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="打开首页页面" />
+        android:text="隐式打开不依赖模块中的界面" />
 
 </LinearLayout>

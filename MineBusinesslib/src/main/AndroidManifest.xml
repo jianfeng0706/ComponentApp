@@ -2,4 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.jf.mine">
 
+    <application>
+        <activity android:name=".MineMainActivity">
+            <intent-filter>
+                <action android:name="com.jf.action.ENTER"/>
+                <action android:name="com.jf.action.ENTER2"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+    </application>
 </manifest>

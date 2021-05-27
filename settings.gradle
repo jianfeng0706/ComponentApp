@@ -1,3 +1,4 @@
+include ':Commonlib'
 include ':MineBusinesslib'
 include ':HomeBusinesslib'
 include ':app'
